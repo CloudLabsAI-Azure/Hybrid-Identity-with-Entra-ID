@@ -21,6 +21,8 @@ In this lab, you will perform the following:
 
 ## Task 1 - Assign Azure resource roles
 
+In this task, you'll assign the Global Administrator role to specific users using Microsoft Entra Privileged Identity Management (PIM). You'll make these roles "Eligible," meaning users must take specific actions to activate the role, and you'll also set a time duration for the assignments.
+
 1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL_User credentials.
 
    - Username : **<inject key="AzureAdUserEmail"></inject>**
@@ -72,6 +74,8 @@ In this lab, you will perform the following:
 
 ## Task 2 - Update or remove an existing Entra role assignment
 
+In this task, you'll update or remove existing role assignments in Microsoft Entra Privileged Identity Management. This involves changing a role's status to "Active" or removing a user from eligible assignments.
+
 Follow these steps to update or remove an existing role assignment.
 
 1. Open **Microsoft Entra Privileged Identity Management**.
@@ -102,3 +106,16 @@ Follow these steps to update or remove an existing role assignment.
    ![](../media/lab3-8.png)
 
 10. So, the role is now active for the user and it will be active till the specified date added above in Membership settings.
+
+## Summary 
+In this lab, you'll learn how to set up and manage Privileged Identity Management (PIM) in Microsoft Entra ID. PIM allows you to assign Global Administrator roles to users with specific privileges and durations, ensuring enhanced security and governance. You will also update or remove role assignments, transitioning roles from eligible to active status as needed.
+
+## Review
+In this lab, you have completed:
+
+- Assign Azure resource roles
+- Update or remove an existing Entra role assignment
+
+
+## You have successfully completed this lab.
+
