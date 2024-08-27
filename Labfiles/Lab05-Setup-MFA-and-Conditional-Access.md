@@ -30,6 +30,9 @@ In this lab, you will perform the following:
 
 ## Exercise 1: Configure per-user multi-factor authentication
 
+In this exercise, you'll explore the implementation and management of multi-factor authentication (MFA) to enhance security. You'll start by validating the sign-in process without MFA, then enable and configure MFA for a user, verify its functionality, and learn how to remove MFA when it's no longer needed. 
+
+
 ### Task 1: Validate sign-in before enabling MFA
 
 In this task, you are validating the current sign-in process to Outlook on the Web before enabling multi-factor authentication (MFA). You will sign in with just a password, check that MFA is not yet required, and then sign out. This ensures you understand the baseline sign-in experience before introducing MFA.
