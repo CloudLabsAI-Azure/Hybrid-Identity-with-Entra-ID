@@ -182,9 +182,7 @@ In this task, you'll configure external collaboration settings by enabling email
 
 1. From the left navigation pane, under **Identity** select **External Identities**, and then select All identity providers.
 
-1. Select the **Email one-time passcode** notification link you see near the top of the screen.
-
-   ![](../media/hybrid15.png)
+1. Select the **Email one-time passcode** Configure link.
 
    >**Note:** A one-time passcode is a very secure way to invite a user to join your organization.
 
@@ -193,7 +191,7 @@ In this task, you'll configure external collaboration settings by enabling email
 
 1. Select **External Collaboration Settings** on the left navigation pane.
 
-1. Under **Guest user access**, review access levels that are available and then select **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)**.
+1. Under **Guest user access restrictions**, review access levels that are available and then select **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)**.
 
    >**NOTE:**
 
