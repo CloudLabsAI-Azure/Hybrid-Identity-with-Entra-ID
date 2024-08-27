@@ -23,11 +23,6 @@ In this lab, you will perform the following:
 
 In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
 
-1. Sign in to https://portal.azure.com using below credentials.
-
-    - Username : **<inject key="AzureAdUserEmail"></inject>**
-    - Password : **<inject key="AzureAdUserPassword"></inject>**
-
 1. In the Search bar of the Azure portal, type **Log Analytics**, then select **Log Analytics workspaces**.
 
 1. Select **+ Create** from the command bar.
