@@ -227,5 +227,15 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 **Results**: After completing this exercise, you will have successfully configured Azure AD Connect to synchronize identity from Active Directory Domain Services to Azure Active Directory.
 
+## Summary 
+In this lab, you successfully set up a hybrid identity solution by integrating on-premises Active Directory with Microsoft Entra ID. You configured AD Domain Services on a Windows Server, added users to your domain controller, and established directory synchronization using Microsoft Entra Connect. Finally, you verified that the user identities were synchronized correctly, ensuring seamless access across both on-premises and cloud environments. This setup enables centralized identity management and supports single sign-on, enhancing security and user experience in a hybrid IT environment.
 
+## Review
+In this lab, you have completed:
 
+- Active Directory Setup
+- Adding users or groups in your Domain Controller
+- Configure directory synchronization with Entra ID Connect
+- Verify synchronization in Entra ID
+
+## You have successfully completed this lab.
