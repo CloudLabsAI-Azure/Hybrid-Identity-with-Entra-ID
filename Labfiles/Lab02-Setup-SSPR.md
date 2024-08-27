@@ -39,7 +39,7 @@ In this task, you'll enable self-service password reset (SSPR) for all users in 
 
 5. In the **Password reset | Properties** window, select **All** to enable self-service password reset to all users. Select **Save**.
   
-    ![](./media/hybrid3.png)
+    ![](../media/hybrid3.png)
 
 6. On the **Password reset | Properties** blade, select **Authentication methods** under **Manage** section.
 
