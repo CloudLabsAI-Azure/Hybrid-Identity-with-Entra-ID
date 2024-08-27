@@ -27,6 +27,8 @@ In this lab, you will perform the following:
 
 ### Task 1: Create a group
 
+In this task, you will create a Microsoft 365 group named "All Users" in the Azure portal, assign ODL_User as the owner, and add specified members to the group.
+
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com**, and then press **Enter**.
 
 1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
