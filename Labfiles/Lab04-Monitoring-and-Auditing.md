@@ -94,3 +94,16 @@ In this task, you will create a Log Analytics workspace for to store the log inf
    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+## Summary 
+
+This lab focuses on configuring Log Analytics in Azure to monitor and analyze audit and sign-in logs from Microsoft Entra ID. You will create a Log Analytics workspace, set up diagnostic settings to collect the logs, and verify that the logs are correctly ingested and accessible for analysis.
+
+## Review
+In this lab, you have completed:
+
+- Create Log Analytics Workspace
+- Add Diagnostic setting to collect audit logs
+- Verify the logs in the workspace
+
+## You have successfully completed this lab.
