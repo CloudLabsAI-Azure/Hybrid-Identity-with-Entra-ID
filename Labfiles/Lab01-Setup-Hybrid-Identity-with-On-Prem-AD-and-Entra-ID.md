@@ -110,18 +110,18 @@ In this task, you will add user accounts to the domain controller in Active Dire
 
    ![](../media/lab1-19.png)
 
-1. In a new Desktone hosted Domain controller, Expand the folder which represents the domain and expand the **Users** folder.
+1. In a new Desktone hosted Domain controller, Expand the folder which represents the domain and expand and select the **Users** folder then Click **user icon**.
 
    ![](../media/lab1-20.png)
 
 1. To create a new user, Click **user icon** and create the users with the following info.
 
-      | Name           | User Name                | Password   | 
-      | -------------- | ------------------------ | ---------- |
-      | Edmund Reeve   | `ereeve@Contoso.local`   | Pa55-w.rd! |
-      | Miranda Snider | `msnider@Contoso.local`  | Pa55-w.rd! | 
-      | Allan Deyoung  | `AllanD@Contoso.local`   | Pa55-w.rd! | 
-      | Joni Sherman   | `JoniS@Contoso.local`    | Pa55-w.rd! | 
+      | First name           | User logon name          | Password   | 
+      | ---------------------| ------------------------ | ---------- |
+      | Edmund Reeve         | `ereeve@Contoso.local`   | Pa55-w.rd! |
+      | Miranda Snider       | `msnider@Contoso.local`  | Pa55-w.rd! | 
+      | Allan Deyoung        | `AllanD@Contoso.local`   | Pa55-w.rd! | 
+      | Joni Sherman         | `JoniS@Contoso.local`    | Pa55-w.rd! | 
 
 1. Please find the below images indicating the user creation process. Repeat these steps to create all users.
     
