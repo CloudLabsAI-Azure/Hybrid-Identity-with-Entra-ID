@@ -217,6 +217,7 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 1. Close Microsoft Edge.
 
+<validation step="88f54cf4-f08e-43d1-ae62-4372fa096ded" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
