@@ -25,6 +25,8 @@ In this lab, you will perform the following:
 
 ## Exercise 1: Configure Access reviews
 
+In this exercise, you'll create a Microsoft 365 group, set up a recurring access review for Teams and Groups, and manage user permissions using the My Access portal, either manually or by accepting system recommendations.
+
 ### Task 1: Create a group
 
 In this task, you will create a Microsoft 365 group named "All Users" in the Azure portal, assign ODL_User as the owner, and add specified members to the group.
@@ -158,6 +160,8 @@ In this task, you will review and manage user access to groups and applications 
       ![](../media/hybrid10.1.png)
 
 ## Exercise 2: Configure external collaboration settings
+
+In this exercise, you will configure external collaboration settings in Microsoft Entra. This includes enabling self-service sign-up for guest users, setting up email one-time passcode notifications, defining guest user access levels, and managing who can invite guest users.
 
 ### Task 1 - Enable Guest Users to perform self service sign-up
 
