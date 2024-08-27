@@ -238,8 +238,17 @@ Screen image displaying guest user access restriction options
 
 
 ## Summary 
+In this lab you learnt to set up access reviews to manage user permissions and enabled guest self-service sign-up. You also configured external collaboration settings to control guest invitations and access, improving security and compliance in Microsoft Entra ID.
 
 ## Review
 In this lab, you have completed:
+
+- Configure Access reviews
+- Create a group
+- Configure access review
+- Review access to groups and applications in access reviews
+- Configure external collaboration settings
+- Enable Guest Users to perform self service sign-up
+- Configure external collaboration settings
 
 ## You have successfully completed this lab.
