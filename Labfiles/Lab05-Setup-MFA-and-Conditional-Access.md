@@ -169,6 +169,8 @@ In this task, you will remove multi-factor authentication (MFA) for a user. This
 
 ## Exercise 2: Configure multi-factor authentication using conditional access
 
+This exercise focuses on configuring multi-factor authentication (MFA) using conditional access in Microsoft Entra. You'll validate the current sign-in process, set up a conditional access policy to enforce MFA for Office 365 applications, and test the policy to ensure it functions correctly. Finally, you'll remove the conditional access policy, providing a comprehensive understanding of managing MFA through conditional access.
+
 ### Task 1: Validate sign-in before enabling conditional access with MFA
 
 In this task, you validate the current sign-in process for a user before setting up conditional access with MFA. This involves signing into Outlook on the Web using only the password, confirming that MFA is not currently required, and then signing out.
