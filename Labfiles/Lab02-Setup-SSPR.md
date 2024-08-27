@@ -23,6 +23,8 @@ In this lab, you will perform the following:
 
 ### Task 1: Enable self-service password reset
 
+In this task, you'll enable self-service password reset (SSPR) for all users in Microsoft Entra ID. You'll configure the necessary authentication methods, including mobile phone, email, and security questions, allowing users to reset their passwords independently. 
+
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
 
 2. Sign in as  **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**.  
@@ -53,6 +55,9 @@ In this lab, you will perform the following:
 
 ### Task 2: Validate self-service password reset
 
+In this task, you'll validate the self-service password reset (SSPR) feature by signing in with a specific user account and changing the password. You'll confirm that users can securely reset their passwords using the SSPR setup, ensuring the feature is functioning as intended.
+
+
 1. On the taskbar, select **Microsoft Edge**.
 
 2. Browse to **https://myaccount.microsoft.com**. 
@@ -79,6 +84,8 @@ In this lab, you will perform the following:
 9. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
+
+## Summary 
 
 
 ## Review
