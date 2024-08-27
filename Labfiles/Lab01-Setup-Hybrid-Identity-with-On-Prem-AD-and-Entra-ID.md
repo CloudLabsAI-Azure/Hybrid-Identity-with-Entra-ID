@@ -189,21 +189,7 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 1. At the Enter password page, enter the password for the Admin account as **<inject key="AzureAdUserPassword"></inject>** and then select **Sign in**. 
 
-1. At the More information required prompt, select **Next**.
-
-1. On the **keep you account secure** page, select **Next** twice.
-
-   Note:- If you don't have the **Authenicator** app installed on your mobile then, open Play Store / App store and search for **Microsoft Authenticator** and tap **Install**.
-
-1. Scan the **QR code** in you **Authenticator** app and select **Next**.
-
-   ![](../media/lab1-40.png)
-
-1. Now enter the number shown on your screen in the authenticator app and select **Next.**
-
-   Note:- It you are asked to enter your **Mobile Number**, close the browser and try to login in **InPrivate Window**.
-
-1. At the Save password prompt, select **Save**.
+1. At the Action required prompt, select **Ask later**.
 
 1. At the Stay signed in prompt, select **No**. The Microsoft 365 admin center opens.
 
