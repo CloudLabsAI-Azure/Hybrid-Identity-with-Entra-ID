@@ -82,7 +82,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Setting | Value |
    |--------|------|
    | Select reviewers | Selected user(s) or group(s) |
-   | Users or groups | click **+ Select Reviewers** and select **ODL_USER XXXX** from the list |
+   | Users or groups | click **+ Select Reviewers** and select **ODL_USER <inject key="DeploymentID" enableCopy="false"/>** from the list |
    | Review Recurrence | Monthly |
 
    ![](../media/lab6-4.png)
@@ -93,7 +93,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    |--------|------|
    | Auto apply results to resource | Selected the checkbox |
    | if reviewers dont respond | Take recommendation |
-   | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER XXXX** from the list  |
+   | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER <inject key="DeploymentID" enableCopy="false"/>** from the list  |
 
    ![](../media/lab6-5.png)
 
