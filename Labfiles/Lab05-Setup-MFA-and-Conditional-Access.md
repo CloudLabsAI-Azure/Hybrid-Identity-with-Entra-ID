@@ -283,3 +283,22 @@ In this task, you remove the previously configured conditional access policy for
 8. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you will have successfully configured multi-factor authentication by using a conditional access policy.
+
+## Summary 
+
+In this lab, you set up multi-factor authentication (MFA) and conditional access policies to enhance security for Office 365 applications. You learned to configure per-user MFA, implement conditional access with MFA, and test these settings to ensure effective security enforcement. This lab provides practical experience in managing access controls to safeguard sensitive data and maintain a secure user environment.
+
+## Review
+In this lab, you have completed:
+
+- Configure per-user multi-factor authentication
+- Validate sign-in before enabling MFA
+- Enable MFA for a user
+- Register and Validate MFA
+- Remove per-user MFA 
+- Configure multi-factor authentication using conditional access
+- Validate sign-in before enabling conditional access with MFA
+- Configure conditional access with MFA
+- Validate and Remove conditional access MFA
+
+ ## You have successfully completed this lab.
