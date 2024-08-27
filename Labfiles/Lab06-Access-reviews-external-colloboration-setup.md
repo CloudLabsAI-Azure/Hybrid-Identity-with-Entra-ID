@@ -60,11 +60,7 @@ In this task, you will create a Microsoft 365 group named "All Users" in the Azu
 
 In this task, you will configure an access review in Microsoft Entra ID to review access permissions for Teams and Groups. The access review will include all users and will recur monthly. Reviewers will be selected from a specific user group, and notifications will be sent to all users at the end of the review. The review will auto-apply results to resources and take recommendations if reviewers don't respond. Ensure the settings are accurate before creating the access review.
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com**, and then press **Enter**.
-
-1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
-
-1. In the  **Microsoft Entra ID** page , select **Identity governance** under Manage.
+1. In the Azure portal search and select **Microsoft Entra ID**, choose **Identity governance** under **Manage** section.
 
 1. Select **Access reviews** from the left pane.
 
