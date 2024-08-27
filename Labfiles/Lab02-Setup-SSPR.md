@@ -72,21 +72,23 @@ In this task, you'll validate the self-service password reset (SSPR) feature by 
 4. On the **Sign in** page, enter **`msnider@xxxxxxx.onmicrosoft.com`** and then select **Next**.
 
   >**Note**: Replace xxxx with the tenantname provided.
-
+  
 5. On the **Enter password** page, enter **<inject key="AzureAdUserPassword"></inject>** or the password that you have entered and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
 
-6. On the **My Account** page, in the navigation pane, select **Password**.
+6. When **Action required** window prompted click on **Ask later**.
+   
+7. On the **My Account** page, in the navigation pane, select **Password**.
 
     ![](../media/lab2-8.png)
 
-7. On the **Change password** page, enter the following information and then select **submit**:
+8. On the **Change password** page, enter the following information and then select **submit**:
      - Old password: **<inject key="AzureAdUserPassword"></inject>**
      - Create new password: **Pa55w.rd!1234**
      - Confirm new password: **Pa55w.rd!1234**
 
-8. If Microsoft Edge prompts to save the password, select **Save**.
+9. If Microsoft Edge prompts to save the password, select **Save**.
 
-9. Close Microsoft Edge.
+10. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
 
