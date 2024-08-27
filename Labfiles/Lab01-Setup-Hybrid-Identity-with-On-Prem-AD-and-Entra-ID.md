@@ -143,7 +143,7 @@ In this task, you will configure directory synchronization between your on-premi
 
 1. On the Microsoft Entra connect, select **Download**. 
 
-   ![](../media/lab1-24.png)
+   ![](../media/hybrid1.png)
 
 1. Select **Open downloads folder** and then in the **Downloads** window, double-click **AzureADConnect.msi**.
 
