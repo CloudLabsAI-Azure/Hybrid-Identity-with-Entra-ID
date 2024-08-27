@@ -54,7 +54,9 @@ In this task, you'll enable self-service password reset (SSPR) for all users in 
 11. Select **Save**.
 
 12. Select **Registration** Select **No** for **Require users to register when signing in**, and the select **Save**.
-
+    
+    ![](../media/hybrid4.png)
+ 
 13. Close Microsoft Edge.
 
 ### Task 2: Validate self-service password reset
