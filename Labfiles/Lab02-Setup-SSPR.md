@@ -57,7 +57,6 @@ In this task, you'll enable self-service password reset (SSPR) for all users in 
 
 In this task, you'll validate the self-service password reset (SSPR) feature by signing in with a specific user account and changing the password. You'll confirm that users can securely reset their passwords using the SSPR setup, ensuring the feature is functioning as intended.
 
-
 1. On the taskbar, select **Microsoft Edge**.
 
 2. Browse to **https://myaccount.microsoft.com**. 
@@ -86,7 +85,7 @@ In this task, you'll validate the self-service password reset (SSPR) feature by 
 **Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
 
 ## Summary 
-
+In this lab, you will learn how to configure and validate self-service password reset (SSPR) for user accounts in Microsoft Entra ID. By enabling SSPR, users can securely reset their own passwords without needing IT support, which enhances productivity and security.
 
 ## Review
 In this lab, you have completed:
