@@ -110,27 +110,28 @@ In this task, you will add user accounts to the domain controller in Active Dire
 
    ![](../media/lab1-19.png)
 
-1. In a new Desktone hosted Domain controller, Expand the folder which represents the domain and expand the **Users** folder.
+1. In a new Desktone hosted Domain controller, Expand the folder which represents the domain and expand and select the **Users** folder then Click **user icon**.
 
    ![](../media/lab1-20.png)
 
-1. To create a new user, Click **user icon** and create the users with the following info.
+1. To create a new user, Click **user icon** and create the users with the following info and click on **Next**.
 
-      | Name           | User Name                | Password   | 
-      | -------------- | ------------------------ | ---------- |
-      | Edmund Reeve   | `ereeve@Contoso.local`   | Pa55-w.rd! |
-      | Miranda Snider | `msnider@Contoso.local`  | Pa55-w.rd! | 
-      | Allan Deyoung  | `AllanD@Contoso.local`   | Pa55-w.rd! | 
-      | Joni Sherman   | `JoniS@Contoso.local`    | Pa55-w.rd! | 
+      | First name           | User logon name          | Password   | 
+      | ---------------------| ------------------------ | ---------- |
+      | Edmund Reeve         | `ereeve@Contoso.local`   | Pa55-w.rd! |
+      | Miranda Snider       | `msnider@Contoso.local`  | Pa55-w.rd! | 
+      | Allan Deyoung        | `AllanD@Contoso.local`   | Pa55-w.rd! | 
+      | Joni Sherman         | `JoniS@Contoso.local`    | Pa55-w.rd! | 
 
-1. Please find the below images indicating the user creation process. Repeat these steps to create all users.
-    
+
     ![](../media/lab1-21.png)
-  
+      
+1. Please find the below images indicating the user creation process. Make sure to uncheck the **User must change the Password at next logon** setting. Repeat these steps to create all users.
+    
     ![](../media/lab2-nn.png)
 
-    >**Note:** Make sure to uncheck the **User must change the Password at next logon** setting
-  
+1. Click on Finish.
+   
     ![](../media/lab1-23.png)
 
 ## Task 3: Configure directory synchronization with Microsoft Entra Connect
@@ -142,7 +143,7 @@ In this task, you will configure directory synchronization between your on-premi
 
 1. On the Microsoft Entra connect, select **Download**. 
 
-   ![](../media/lab1-24.png)
+   ![](../media/hybrid1.png)
 
 1. Select **Open downloads folder** and then in the **Downloads** window, double-click **AzureADConnect.msi**.
 
@@ -188,21 +189,7 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 1. At the Enter password page, enter the password for the Admin account as **<inject key="AzureAdUserPassword"></inject>** and then select **Sign in**. 
 
-1. At the More information required prompt, select **Next**.
-
-1. On the **keep you account secure** page, select **Next** twice.
-
-   Note:- If you don't have the **Authenicator** app installed on your mobile then, open Play Store / App store and search for **Microsoft Authenticator** and tap **Install**.
-
-1. Scan the **QR code** in you **Authenticator** app and select **Next**.
-
-   ![](../media/lab1-40.png)
-
-1. Now enter the number shown on your screen in the authenticator app and select **Next.**
-
-   Note:- It you are asked to enter your **Mobile Number**, close the browser and try to login in **InPrivate Window**.
-
-1. At the Save password prompt, select **Save**.
+1. At the Action required prompt, select **Ask later**.
 
 1. At the Stay signed in prompt, select **No**. The Microsoft 365 admin center opens.
 
@@ -216,6 +203,7 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 1. Close Microsoft Edge.
 
+<validation step="88f54cf4-f08e-43d1-ae62-4372fa096ded" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
@@ -225,5 +213,15 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 **Results**: After completing this exercise, you will have successfully configured Azure AD Connect to synchronize identity from Active Directory Domain Services to Azure Active Directory.
 
+## Summary 
+In this lab, you successfully set up a hybrid identity solution by integrating on-premises Active Directory with Microsoft Entra ID. You configured AD Domain Services on a Windows Server, added users to your domain controller, and established directory synchronization using Microsoft Entra Connect. Finally, you verified that the user identities were synchronized correctly, ensuring seamless access across both on-premises and cloud environments. This setup enables centralized identity management and supports single sign-on, enhancing security and user experience in a hybrid IT environment.
 
+## Review
+In this lab, you have completed:
 
+- Active Directory Setup
+- Adding users or groups in your Domain Controller
+- Configure directory synchronization with Entra ID Connect
+- Verify synchronization in Entra ID
+
+## You have successfully completed this lab.

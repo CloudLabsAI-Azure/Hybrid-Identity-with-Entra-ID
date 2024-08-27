@@ -25,6 +25,8 @@ In this lab, you will glance through the following:
 
 ### Task 1: Enable passwordless phone sign-in authentication methods
 
+In this task, you configure passwordless authentication by enabling the Microsoft Authenticator app for all users in Microsoft Entra ID.
+
 1. Sign in to https://entra.microsoft.com/.
 
 1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
@@ -46,7 +48,9 @@ In this lab, you will glance through the following:
    ![](../media/hybrid16.png)
 
 ### Task 2: Configure signin methods to the user
- 
+
+In this task, you configure sign-in methods for a user by adding the Microsoft Authenticator app as a sign-in method. This involves linking the app to the user's account by scanning a QR code and verifying the setup. 
+
 1. Navigate to https://portal.office.com using the credentials provided in the environment details page.
 
 1. Select the profile icon located at the top right corner and select **View account**.
@@ -67,6 +71,8 @@ In this lab, you will glance through the following:
 
 ### Task 3: Enable Phone signin
 
+In this task, you enable phone sign-in for a user by configuring the Microsoft Authenticator app to allow authentication via the app instead of a password.
+
 1. Open **Authenticator app** and select the account added and click on **set up phone signin** and click **Continue**.
 
 1. Enter the password provided in the environment details page and approve the sign-in requests.
@@ -78,6 +84,7 @@ In this lab, you will glance through the following:
    >**Note**: Please wait for about 5 mins and proceed with next task.
 
 ### Task 4: Validate the passwordless signin
+In this task, you validate the passwordless sign-in by logging into the Azure portal using the phone sign-in method. Instead of entering a password, you approve the sign-in request through the Microsoft Authenticator app.
 
 1. Open the incognito tab, and navigate to https://portal.azure.com/
 
@@ -86,6 +93,18 @@ In this lab, you will glance through the following:
 1. On the **Enter Password** page, select the **Use an app instead** and it will provide a two digit number and ask to enter in authenticator app pop-up in the mobile to approve the sign in request.
 
 1. Once it is approved in the app, it will redirect to the home page of the azure portal without prompting for password.
+
+## Summary 
+
+This lab successfully guided you through setting up and validating passwordless sign-in using the Microsoft Authenticator app in Microsoft Entra ID. By implementing this, you've enhanced both security and user convenience, allowing employees to access corporate resources without relying on traditional passwords. This method provides a more secure and streamlined authentication process.
+
+## Review
+In this lab, you have completed:
+
+- Enable passwordless phone sign-in authentication methods
+- Configure signin methods to the user
+- Enable Phone signin
+- Validate the passwordless signin
 
 ## You have successfully completed the lab.
 

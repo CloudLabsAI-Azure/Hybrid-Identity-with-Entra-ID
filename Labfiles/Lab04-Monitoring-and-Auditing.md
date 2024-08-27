@@ -23,11 +23,6 @@ In this lab, you will perform the following:
 
 In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
 
-1. Sign in to https://portal.azure.com using below credentials.
-
-    - Username : **<inject key="AzureAdUserEmail"></inject>**
-    - Password : **<inject key="AzureAdUserPassword"></inject>**
-
 1. In the Search bar of the Azure portal, type **Log Analytics**, then select **Log Analytics workspaces**.
 
 1. Select **+ Create** from the command bar.
@@ -47,6 +42,8 @@ In this task, you will create a Log Analytics workspace for to store the log inf
    ![](../media/lab4-2.png)
 
 ## Task 2 - Add Diagnostic setting to collect audit logs
+
+In this task, you'll configure diagnostic settings in Microsoft Entra ID to collect audit and sign-in logs. You'll direct these logs to the previously created Log Analytics workspace for centralized monitoring and analysis.
 
 1. Navigate to Microsoft Entra ID, and select **Diagnostic settings** under Monitoring section.
 
@@ -69,6 +66,8 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
 ## Task 3 - Verify the logs in the workspace
 
+In this task, you'll verify that the logs are being collected correctly in the Log Analytics workspace. You will navigate to the workspace, open the query pane, and run queries to view the ingested audit and sign-in logs.
+
 1. Navigate to the **Log analytics workspace** and Select **Logs** from the general section of the pane.
 
 1. Close all the pop-ups until the query pane is visible.
@@ -87,8 +86,23 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
    >**Note**: Logs may not appear in the log analytics workspace immediately; it might take some time for them to show up.
 
+   <validation step="10e645b5-8801-42ea-9684-ad923dfe3099" />
+   
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+## Summary 
+
+This lab focuses on configuring Log Analytics in Azure to monitor and analyze audit and sign-in logs from Microsoft Entra ID. You will create a Log Analytics workspace, set up diagnostic settings to collect the logs, and verify that the logs are correctly ingested and accessible for analysis.
+
+## Review
+In this lab, you have completed:
+
+- Create Log Analytics Workspace
+- Add Diagnostic setting to collect audit logs
+- Verify the logs in the workspace
+
+## You have successfully completed this lab.
