@@ -82,11 +82,11 @@ In this task, you'll validate the self-service password reset (SSPR) feature by 
     ![](../media/lab2-8.png)
 
 8. On the **Change password** page, enter the following information and then select **submit**:
-     - Old password: **<inject key="AzureAdUserPassword"></inject>**
+     - Current password: **<inject key="AzureAdUserPassword"></inject>**
      - Create new password: **Pa55w.rd!1234**
      - Confirm new password: **Pa55w.rd!1234**
 
-9. If Microsoft Edge prompts to save the password, select **Save**.
+9. If Microsoft Edge prompts to save the password, select **Sumit** > **Done**.
 
 10. Close Microsoft Edge.
 
