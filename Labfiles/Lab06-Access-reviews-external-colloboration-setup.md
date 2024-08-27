@@ -72,7 +72,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    |--------|------|
    | Select what to review | Teams + Groups (1)|
    | Review scope | select Teams + groups (2)|
-   | Groups | search and select **All users** from the list (3)|
+   | Groups | select **+ Select group(s)** link and search and select **All users** from the list (3)|
    | Scope | All users (4)|
 
    ![](../media/lab6-3.png)
