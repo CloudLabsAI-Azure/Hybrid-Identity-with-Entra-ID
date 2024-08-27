@@ -32,6 +32,8 @@ In this lab, you will perform the following:
 
 ### Task 1: Validate sign-in before enabling MFA
 
+In this task, you are validating the current sign-in process to Outlook on the Web before enabling multi-factor authentication (MFA). You will sign in with just a password, check that MFA is not yet required, and then sign out. This ensures you understand the baseline sign-in experience before introducing MFA.
+
 1. On the taskbar, select **Microsoft Edge**.
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
@@ -53,6 +55,8 @@ In this lab, you will perform the following:
 7. Close Microsoft Edge.
 
 ### Task 2: Enable MFA for a user
+
+In this task, you will enable multi-factor authentication (MFA) for a specific user in Microsoft Entra. You’ll first access the Microsoft Entra admin center, configure MFA settings to allow users to remember trusted devices for 30 days, and then enable MFA for the selected user. After applying these changes, the user will be required to use MFA during sign-in.
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
@@ -96,6 +100,8 @@ In this lab, you will perform the following:
 
 ### Task 3: Register and Validate MFA 
 
+In this task, you will configure and verify multi-factor authentication (MFA) for a user. This involves setting up MFA through text messages, registering your mobile phone, and completing the verification process. You will then sign in again to ensure that MFA is functioning correctly and confirm that the setup is complete.
+
 1. On the taskbar, select **Microsoft Edge**.
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
@@ -132,7 +138,9 @@ In this lab, you will perform the following:
 
 13. Close Microsoft Edge.
 
-### Task 3: Remove per-user MFA
+### Task 4: Remove per-user MFA
+
+In this task, you will remove multi-factor authentication (MFA) for a user. This involves accessing the Microsoft Entra admin center, navigating to the Per-user MFA settings, and disabling MFA for the specified user. 
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
