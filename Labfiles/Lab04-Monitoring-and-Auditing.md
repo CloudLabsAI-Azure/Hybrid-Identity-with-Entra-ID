@@ -87,6 +87,8 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
    >**Note**: Logs may not appear in the log analytics workspace immediately; it might take some time for them to show up.
 
+   <validation step="10e645b5-8801-42ea-9684-ad923dfe3099" />
+   
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
