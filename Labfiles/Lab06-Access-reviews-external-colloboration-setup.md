@@ -108,6 +108,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 1. Verify the settings once again and select **Create** to create the access review.
 
 ### Task 3: Review access to groups and applications in access reviews
+In this task, you will review and manage user access to groups and applications through access reviews in the My Access portal. You will either manually assess and decide on user access or accept system-generated recommendations for managing permissions efficiently.
 
 1. Sign in to My Access at https://myaccess.microsoft.com/
    
@@ -164,6 +165,8 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 ### Task 1 - Enable Guest Users to perform self service sign-up
 
+In this task, you'll configure settings to allow guest users to sign up for access on their own in Microsoft Entra by enabling the self-service sign-up feature.
+
 1. Sign in to the https://entra.microsoft.com
 
 1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
@@ -179,6 +182,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 1. Select **Save** at the top of the screen.
 
 ### Task 2 - Configure external collaboration settings
+In this task, you'll configure external collaboration settings by enabling email one-time passcode notifications, setting guest user access levels, specifying who can invite guest users, and configuring collaboration restrictions.
 
 1. From the left navigation pane, under **Identity** select **External Identities**, and then select All identity providers.
 
