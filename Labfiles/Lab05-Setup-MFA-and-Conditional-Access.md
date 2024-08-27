@@ -168,6 +168,8 @@ In this task, you will remove multi-factor authentication (MFA) for a user. This
 
 ### Task 1: Validate sign-in before enabling conditional access with MFA
 
+In this task, you validate the current sign-in process for a user before setting up conditional access with MFA. This involves signing into Outlook on the Web using only the password, confirming that MFA is not currently required, and then signing out.
+
 1. On the taskbar, select **Microsoft Edge**.
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
@@ -183,6 +185,8 @@ In this task, you will remove multi-factor authentication (MFA) for a user. This
 8. Close Microsoft Edge.
 
 ### Task 2: Configure conditional access with MFA
+
+In this task, you configure a conditional access policy to require multi-factor authentication (MFA) for accessing Office 365 apps. You create a new policy in the Microsoft Entra admin center, specify the user or group it applies to, and enforce MFA as part of the access controls.
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
@@ -231,6 +235,8 @@ In this task, you will remove multi-factor authentication (MFA) for a user. This
 
 ### Task 3: Validate conditional access MFA
 
+In this task, you test the newly configured conditional access policy by signing in to Outlook on the Web and completing the MFA process to ensure that the policy is enforcing multi-factor authentication correctly.
+
 1. On the taskbar, select **Microsoft Edge** and open an **InPrivate window**
 
 2. In the address bar, enter **https://outlook.office.com** and press Enter.
@@ -252,6 +258,8 @@ In this task, you will remove multi-factor authentication (MFA) for a user. This
 11. Close Microsoft Edge.
 
 ### Task 4: Remove conditional access MFA 
+
+In this task, you remove the previously configured conditional access policy for multi-factor authentication by deleting the policy from the Microsoft Entra admin center.
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
