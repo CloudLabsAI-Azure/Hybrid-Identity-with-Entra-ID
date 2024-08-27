@@ -49,7 +49,7 @@ In this task, you'll enable self-service password reset (SSPR) for all users in 
 
 9. For the **Number of questions required to reset**, select **3**.
 
-10. In the **Select security questions** section, select **No security questions configured**, then select **Predefined**. Select three questions of your choice, and then select **Ok**.
+10. In the **Select security questions** section, select **No security questions configured**, then select **+ Predefined**. Select three questions of your choice, and then select **Ok**.
 
 11. Select **Save**.
 
