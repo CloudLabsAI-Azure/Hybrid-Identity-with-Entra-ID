@@ -43,6 +43,8 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
 ## Task 2 - Add Diagnostic setting to collect audit logs
 
+In this task, you'll configure diagnostic settings in Microsoft Entra ID to collect audit and sign-in logs. You'll direct these logs to the previously created Log Analytics workspace for centralized monitoring and analysis.
+
 1. Navigate to Microsoft Entra ID, and select **Diagnostic settings** under Monitoring section.
 
    ![](../media/lab4-3.png)
@@ -63,6 +65,8 @@ In this task, you will create a Log Analytics workspace for to store the log inf
   >**Note**: Wait for about 15 mins for logs ingestion to happen and proceed with the next task.
 
 ## Task 3 - Verify the logs in the workspace
+
+In this task, you'll verify that the logs are being collected correctly in the Log Analytics workspace. You will navigate to the workspace, open the query pane, and run queries to view the ingested audit and sign-in logs.
 
 1. Navigate to the **Log analytics workspace** and Select **Logs** from the general section of the pane.
 
