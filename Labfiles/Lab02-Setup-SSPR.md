@@ -80,3 +80,11 @@ In this lab, you will perform the following:
 
 **Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
 
+
+## Review
+In this lab, you have completed:
+
+- Enable self-service password reset
+- Validate self-service password reset
+
+## You have successfully completed this lab.
