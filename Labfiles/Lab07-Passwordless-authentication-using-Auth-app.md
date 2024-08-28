@@ -1,4 +1,4 @@
-## Lab07 - Configuring passwordless sign-in using an authentication app (Read -Only)
+# Lab07 - Configuring passwordless sign-in using an authentication app (Read -Only)
 
   >**Note**: During this Azure lab, you'll set up passwordless sign-in, which may involve registering personal mobile devices with Azure AD. We recommend following instructions provided and avoiding device registration unless necessary for learning objectives. Understand access implications within Azure.
 
